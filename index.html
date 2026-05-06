@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Marks Dashboard</title>
+    
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>My School</h2>
+        <p>Performance</p>
+        <p>Attendance</p>
+        <p>Settings</p>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h1>Academic Analytics</h1>
+            <p>Name: Danish Khuraijam</p>
+        </div>
+
+        
+        <div class="row">
+            <div class="box">
+                <h3>GPA</h3>
+                <p>8.54</p>
+            </div>
+            <div class="box">
+                <h3>Attendance</h3>
+                <p>88%</p>
+            </div>
+            <div class="box">
+                <h3>Grade</h3>
+                <p>A+</p>
+            </div>
+        </div>
+
+        
+        <div class="chart-box">
+            <h3>Subject Wise Marks</h3>
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
